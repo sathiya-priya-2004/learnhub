@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Your Educational Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LearnHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>LearnHub is dedicated to providing high-quality educational content, courses, and resources for learners of all ages.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>Learn how to build websites from scratch using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Master data analysis and visualization techniques using Python and R.</p>
+            </div>
+            <div class="course">
+                <h3>Graphic Design</h3>
+                <p>Explore design principles and software like Adobe Photoshop and Illustrator.</p>
+            </div>
+            <div class="course">
+                <h3>Machine Learning</h3>
+                <p>Dive into algorithms and learn how to build predictive models.</p>
+            </div>
+        </section>
+
+        <section id="tutorials">
+            <h2>Tutorials</h2>
+            <ul>
+                <li><a href="#">How to Create a Responsive Website</a></li>
+                <li><a href="#">Introduction to Python Programming</a></li>
+                <li><a href="#">Understanding the Basics of Graphic Design</a></li>
+                <li><a href="#">Getting Started with Data Analysis</a></li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Access a variety of educational resources, including e-books, articles, and videos to enhance your learning journey.</p>
+            <ul>
+                <li><a href="#">E-books</a></li>
+                <li><a href="#">Video Tutorials</a></li>
+                <li><a href="#">Interactive Quizzes</a></li>
+                <li><a href="#">Study Guides</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out!</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="responseMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
